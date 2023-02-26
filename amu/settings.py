@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.contrib.staticfiles.middleware.StaticFilesMiddleware',
+    'django.contrib.staticfiles.middleware'
 ]
 
 ROOT_URLCONF = 'amu.urls'
